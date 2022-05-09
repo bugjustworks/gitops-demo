@@ -11,4 +11,4 @@ haproxy-ingress:
           targetPort: https
           nodePort: 30443
   extraArgs:
-    watch-ingress-without-class: ""
+    watch-ingress-without-class: "true"
